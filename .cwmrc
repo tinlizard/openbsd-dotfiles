@@ -1,0 +1,18 @@
+color activeborder "#73d72b"
+color inactiveborder "#e90c0c"
+borderwidth 5
+command firefox    firefox
+
+bind-key CM-x restart
+bind-key CM-f quit
+bind-key 4-d menu-exec
+bind-key 4-q window-close
+bind-key 4-m window-maximize
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+bind-key 4-3 group-only-3
+bind-key 4S-1 window-movetogroup-1
+bind-key 4S-2 window-movetogroup-2
+bind-key 4S-3 window-movetogroup-3
+bind-key CM-r window-menu-label
+bind-key CM-Return "kitty"
